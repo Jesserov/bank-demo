@@ -2,8 +2,8 @@
 
 require_once 'autoload.php';
 
-use App\Briqsbank\src\SavingsAccount;
-use App\Briqsbank\src\CurrentAccount;
+use App\Briqsbank\SavingsAccount;
+use App\Briqsbank\CurrentAccount;
 
 $accountOne = new SavingsAccount("0114116070", "GTB", 100000, 0.05);
 $accountTwo = new CurrentAccount("0229399139", "Access Bank", 5000, 2000);
