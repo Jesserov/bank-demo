@@ -1,5 +1,7 @@
 <?php
 
+namespace App\Briqsbank;
+
 class BankAccount
 {
     protected $accountNumber;

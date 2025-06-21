@@ -1,5 +1,6 @@
 <?php
 
+namespace App\Briqsbank;
 class SavingsAccount extends BankAccount
 {
     private $interestRate;

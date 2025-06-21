@@ -1,5 +1,7 @@
 <?php
 
+namespace App\Briqsbank;
+
 class CurrentAccount extends BankAccount {
     private $overdraftLimit;
 
